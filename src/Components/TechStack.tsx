@@ -29,8 +29,7 @@ const TechStack = () => {
     {title :"Netlify", imgLink:"https://img.icons8.com/ios/50/cloud--v1.png", offical:"https://www.java.com/en/" , badge:"Hosting"},
     {title :"Vercel", imgLink:"https://img.icons8.com/ios/50/cloud--v1.png", offical:"https://www.java.com/en/" , badge:"Hosting"},
   ]
-
-// 
+ 
 
   return (
      <section className='flex flex-col gap-4'>
@@ -39,7 +38,7 @@ const TechStack = () => {
             <p className='font-primary text-md font-medium mt-2 text-gray-500'>the tech tool and technologies I work with</p>
         </div>
         <div className="flex flex-col gap-8 m-6">
-            <h1>Tools & Technology</h1>
+            <h1 className="font-primary text-2xl font-semibold text-gray-600">Tools & Technology</h1>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6'>
               {technology.map((tech,index)=>(
                 <div key={index} className="shadow-md border-0 rounded-3xl  hover:shadow-xl transition-shadow duration-300 bg-gray-100">
