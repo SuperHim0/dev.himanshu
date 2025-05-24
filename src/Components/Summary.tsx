@@ -1,4 +1,4 @@
-import { IconBrandGithub, IconBrandLeetcode, IconBrandLinkedin, IconExternalLink, IconGitBranch, IconPoint } from '@tabler/icons-react';
+import { IconBrandGithub, IconBrandLeetcode, IconBrandLinkedin, IconExternalLink} from '@tabler/icons-react';
 import profileImage from '../assets/luffy.png';
 import { Fade } from "react-awesome-reveal";
 
