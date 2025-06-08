@@ -21,6 +21,7 @@
     "@tabler/icons-react": "^3.33.0",
     "@tailwindcss/vite": "^4.1.7",
     "dayjs": "^1.11.13",
+    "dev-himanshu": "file:",
     "react": "^19.1.0",
     "react-awesome-reveal": "^4.3.1",
     "react-dom": "^19.1.0",

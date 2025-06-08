@@ -12,7 +12,10 @@ const projectsDetails = [
         },
         { title: "Fresh Basket", description: "Created an e-commerce platform with user and admin panels for managing groceries. – User Panel: Product browsing, cart management, purchase tracking, and blogging. – Admin Panel: Product/category management, order tracking, and delivery status updates.",
             techUsed: ["React", "Java", "JavaScript"," JSP", "Spring Boot", "MySQL"], picture: FreshBasekt , links: [{value:"",label:"view Project",icon:<IconExternalLink></IconExternalLink>},{value:"",label:"view Project",icon:<IconBrandGithub></IconBrandGithub>}]
-        }
+        },
+        { title: "Student Management System", description: "Created an e-commerce platform with user and admin panels for managing groceries. – User Panel: Product browsing, cart management, purchase tracking, and blogging. – Admin Panel: Product/category management, order tracking, and delivery status updates.",
+            techUsed: ["React", "Java", "JavaScript"," JSP", "Spring Boot", "Postgres"], picture: FreshBasekt , links: [{value:"https://smrs-frontend.vercel.app/",label:"view Project",icon:<IconExternalLink></IconExternalLink>},{value:"https://smrs-frontend.vercel.app/",label:"Source Code", icon:<IconBrandGithub></IconBrandGithub>}]
+        },
     ]
 
   return (
