@@ -1,4 +1,5 @@
 import { Menu} from "@mantine/core"
+import { NavLink } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -13,7 +14,7 @@ const Header = () => {
         </Menu.Target>
         <Menu.Dropdown className="block sm:hidden">
             <Menu.Item>
-                <a href='/' className='font-family'>घर</a>
+                <NavLink to={'/'} className='font-family'>घर</NavLink>
             </Menu.Item>
             <Menu.Item>
                 <a href='/about' className='font-family'>मेरे बारे में</a>
@@ -34,11 +35,11 @@ const Header = () => {
         <div className="md:block sm:hidden lg:block hidden ">
             <ul>
                 <li className="flex gap-4 font-family">
-                    <a href='/'className='' >घर</a>
-                    <a href='/about'className='' >मेरे बारे में</a>
-                    <a href='/project'className='' >परियोजनाएँ</a>
-                    <a href='/tech-stack'className='' >तकनीकी ढांचा</a>
-                    <a href='/contact'className='' >संपर्क करें</a>
+                    <NavLink to='/'className='' >घर</NavLink>
+                    <NavLink to='/about'className='' >मेरे बारे में</NavLink>
+                    <NavLink to='/project'className='' >परियोजनाएँ</NavLink>
+                    <NavLink to='/tech-stack'className='' >तकनीकी ढांचा</NavLink>
+                    <NavLink to='/contact'className='' >संपर्क करें</NavLink>
                 </li>
             </ul>
         </div>

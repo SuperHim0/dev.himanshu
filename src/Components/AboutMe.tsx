@@ -19,8 +19,8 @@ const AboutMe = () => {
             <h1 className='font-primary text-2xl font-semibold'>A little bit About Me</h1>
             <p className='font-primary text-md font-medium mt-2 text-gray-500'>Who am i and what i do</p>
         </div>
-        <div className="flex flex-row gap-8 m-6">
-            <div className="w-6/10 flex flex-col gap-6">
+        <div className="flex flex-col-reverse  md:flex-row  gap-8 m-6">
+            <div className="md:w-6/10 flex flex-col gap-6">
                 {
                     aboutMeDetails.map((about,index)=>(
                         <div key={index} className="flex flex-col gap-4">
@@ -31,8 +31,8 @@ const AboutMe = () => {
                 }
             </div>
             <div className="flex flex-col gap-4 items-center" >
-                <img className="w-[50%]" src={himanshu} alt="Profile" />
-                <button className="bg-black text-white w-1/3 rounded-lg h-12">Get in Touch</button>
+                <img className="w-[120px] md:w-[50%]" src={himanshu} alt="Profile" />
+                <button className="bg-black text-white  rounded-lg px-4 py-2">Get in Touch</button>
             </div>
         </div>
     </section>
