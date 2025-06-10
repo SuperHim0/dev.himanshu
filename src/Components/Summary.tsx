@@ -45,7 +45,7 @@ const Summary = () => {
           <IconBrandGithub onClick={()=>{window.open("https://github.com/SuperHim0")}}  size={48} className='cursor-pointer hover:text-gray-500'/>
           <IconBrandLeetcode onClick={()=>{window.open("https://leetcode.com/u/superhim/")}}  size={48} className='cursor-pointer hover:text-gray-500'/>
         </div>
-        <button className="bg-black text-white px-6 py-3 rounded-lg text-base sm:text-lg   flex items-center justify-center sm:w-50  gap-2 hover:bg-gray-600 cursor-pointer" onClick={()=>{window.open("https://drive.google.com/file/d/10PThvNFtszvLNd0bDhCJLi24Io7w8yC3/view?usp=sharing")}}>
+        <button className="bg-black text-white px-6 py-3 rounded-lg text-base sm:text-lg   flex items-center justify-center sm:w-50  gap-2 hover:bg-gray-600 cursor-pointer" onClick={()=>{window.open("https://drive.google.com/file/d/1H15al5BN0nvL-gddS49YoAX8JApxjwAB/view?usp=drive_link")}}>
          <IconExternalLink size={28}/> View Resume
         </button>
       </div>
